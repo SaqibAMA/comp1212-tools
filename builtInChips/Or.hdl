@@ -1,0 +1,11 @@
+/**
+ * Or gate: out = 1 if {x == 1 or y == 1}, 0 otherwise
+ */
+
+CHIP Or {
+
+    IN  x, y;
+    OUT out;
+
+    BUILTIN Or;
+}

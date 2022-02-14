@@ -1,0 +1,11 @@
+/**
+ * 8-way Or gate: out = x[0] or x[1] or ... or x[7].
+ */
+
+CHIP Or8Way {
+
+    IN  x[8];
+    OUT out;
+
+    BUILTIN Or8Way;
+}

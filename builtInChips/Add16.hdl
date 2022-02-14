@@ -1,0 +1,17 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: tools/builtIn/Add16.hdl
+
+/*
+ * Adds two 16-bit values.
+ * The most significant carry bit is ignored.
+ */
+
+CHIP Add16 {
+
+    IN  x[16], y[16];
+    OUT result[16];
+
+    BUILTIN Add16;
+}

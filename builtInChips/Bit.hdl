@@ -1,0 +1,14 @@
+/**
+ * 1-bit register.
+ * If load[t] == 1 then out[t+1] = x[t]
+ *                 else out[t+1] = out[t] (no change)
+ */
+
+CHIP Bit {
+
+    IN  x, load;
+    OUT out;
+
+    BUILTIN Bit;
+    CLOCKED x, load;
+}

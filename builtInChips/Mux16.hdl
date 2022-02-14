@@ -1,0 +1,11 @@
+/**
+ * 16 bit multiplexor. If sel == 1 then out = y else out = x.
+ */
+
+CHIP Mux16 {
+
+    IN  x[16], y[16], sel;
+    OUT out[16];
+
+    BUILTIN Mux;
+}

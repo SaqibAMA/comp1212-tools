@@ -1,0 +1,11 @@
+/**
+ * Not gate: out = not in
+ */
+
+CHIP Not {
+
+    IN  x;
+    OUT out;
+
+    BUILTIN Not;
+}

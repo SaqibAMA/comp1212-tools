@@ -1,0 +1,11 @@
+/**
+ *  Exclusive-or gate: out = !(a == b).
+ */
+
+CHIP Xor {
+
+    IN  x, y;
+    OUT out;
+
+    BUILTIN Xor;
+}

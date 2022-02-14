@@ -1,0 +1,11 @@
+/**
+ * 16-bit Not gate: for i = 0..15: out[i] = not x[i]
+ */
+
+CHIP Not16 {
+
+    IN  x[16];
+    OUT out[16];
+
+    BUILTIN Not16;
+}
